@@ -1,0 +1,95 @@
+.header {
+  margin-top: 83px;
+}
+.header-title {
+  font-size: 48px;
+}
+.header-p {
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+.servise-text {
+  margin-top: 200px;
+}
+.line {
+  height: 2px;
+  width: 50px;
+  background: black;
+}
+.medic {
+  margin-left: 20px;
+}
+.medic1 {
+  max-width: 350px;
+  height: 354px;
+  background: #fcfafa;
+}
+.leading button {
+  border-color: #458ff6;
+  color: #458ff6;
+  background-color: white;
+}
+.bttn-button {
+  margin-top: 69px;
+  margin-left: 650px;
+  margin-bottom: 349px;
+}
+.bg-body h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.bg-body p {
+  max-width: 450px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.card{
+  background: #fcfafa;
+  border: red;
+}
+.card-rasm{
+  width: 350px;
+  min-height: 512px;
+  background-color:white;
+
+  /* border:3px solid red;  */
+}
+.card-h4{
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.card-text{
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #7D7987;
+}
+.new-button{
+  border: none;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  color: white;
+}
+@media (max-width: 1200) {
+  .bg-body {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .card-rasm{
+    text-align: center;
+  }
+}
